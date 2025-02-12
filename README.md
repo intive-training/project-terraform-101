@@ -70,6 +70,45 @@ c. **Create a Public GitHub Repository**:
 
 ---
 
+# Basic example Terraform Project: Lambda and API Gateway
+
+The example project packages a Lambda function source code located in the `src` directory, it deploys a Lambda function, and configures an API Gateway to expose it via an HTTP endpoint. Additionally, a CloudWatch log group is created to capture logs from the Lambda function.
+
+bash
+git clone https://github.com/your-username/your-terraform-project.git
+cd your-terraform-project
+
+bash
+terraform init
+
+bash
+terraform init
+
+bash
+terraform apply
+
+bash 
+terraform destroy
+
+
+### Functional lambda link
+
+https://av09ysmpri.execute-api.us-west-2.amazonaws.com/
+
+
+## Overview
+
+The main components of this project are:
+
+- **Lambda Function:**  
+  Implements a function that returns a JSON message, for example:
+  ```json
+  {
+    "message": "Hello from Lambda"
+  }
+
+
+
 ## License
 
 This project is open-source and available under the MIT License. Contributions are welcome!
