@@ -74,22 +74,17 @@ c. **Create a Public GitHub Repository**:
 
 The example project packages a Lambda function source code located in the `src` directory, it deploys a Lambda function, and configures an API Gateway to expose it via an HTTP endpoint. Additionally, a CloudWatch log group is created to capture logs from the Lambda function.
 
-bash
-git clone https://github.com/your-username/your-terraform-project.git
+
+```bash
+clone https://github.com/your-username/your-terraform-project.git
 cd your-terraform-project
 
-bash
 terraform init
-
-bash
-terraform init
-
-bash
+terraform plan
 terraform apply
 
-bash 
 terraform destroy
-
+```
 
 ### Functional lambda link
 
